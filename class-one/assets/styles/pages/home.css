@@ -5,6 +5,7 @@
   display: flex;
   padding: 12px 64px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-section img {
@@ -23,6 +24,34 @@
 }
 
 .button-section {
+  display: flex;
+  gap: 16px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 112px 64px;
+}
+
+.main-container > div {
+  width: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container h1 {
+  margin-bottom: 24px;
+}
+.main-container p {
+  margin-bottom: 32px;
+}
+.main-container span {
+  display: block;
+}
+
+.main-container > div > div {
   display: flex;
   gap: 16px;
 }

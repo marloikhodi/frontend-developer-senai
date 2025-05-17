@@ -52,3 +52,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+p {
+  font-weight: 400;
+  line-height: 1.5;
+}
