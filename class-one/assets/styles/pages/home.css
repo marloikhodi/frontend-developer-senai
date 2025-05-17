@@ -1,0 +1,28 @@
+.header-container {
+  border-bottom: 1px solid var(--color-main);
+}
+.header-section {
+  display: flex;
+  padding: 12px 64px;
+  justify-content: space-between;
+}
+
+.header-section img {
+  height: 36px;
+}
+
+.link-section {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.link-section nav {
+  display: flex;
+  gap: 32px;
+}
+
+.button-section {
+  display: flex;
+  gap: 16px;
+}

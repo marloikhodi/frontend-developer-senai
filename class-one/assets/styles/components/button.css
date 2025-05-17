@@ -1,0 +1,16 @@
+.white-bg-button {
+  background-color: transparent;
+  border: 1px solid var(--color-main);
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.black-bg-button {
+  background-color: var(--color-main);
+  border: 1px solid var(--color-main);
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+}

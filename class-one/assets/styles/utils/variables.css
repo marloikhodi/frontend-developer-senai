@@ -1,0 +1,11 @@
+:root {
+  /* Color variables */
+  --text-primary: #000000;
+  --background-color: #fefefe;
+  --color-neutral: #666666;
+  --color-main: #000000;
+
+  /* Font variables */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Sora", sans-serif;
+}
