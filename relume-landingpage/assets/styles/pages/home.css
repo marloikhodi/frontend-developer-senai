@@ -1,6 +1,7 @@
 .header-container {
   border-bottom: 1px solid var(--color-main);
 }
+
 .header-section {
   display: flex;
   padding: 12px 64px;
@@ -35,7 +36,7 @@
   gap: 80px;
 }
 
-.head-container > div {
+.head-container>div {
   width: 616px;
   display: flex;
   flex-direction: column;
@@ -45,14 +46,16 @@
 .head-container h1 {
   margin-bottom: 24px;
 }
+
 .head-container p {
   margin-bottom: 32px;
 }
+
 .head-container span {
   display: block;
 }
 
-.head-container > div > div {
+.head-container>div>div {
   display: flex;
   gap: 16px;
 }
@@ -93,12 +96,12 @@
   padding: 112px 64px;
 }
 
-.how-it-works-section > div {
+.how-it-works-section>div {
   display: flex;
   gap: 48px;
 }
 
-.how-it-works-section > div > div {
+.how-it-works-section>div>div {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -126,6 +129,7 @@
   text-align: center;
   padding-bottom: 24px;
 }
+
 .tagline-container :nth-child(3) {
   max-width: 768px;
   text-align: center;
@@ -143,7 +147,7 @@
   gap: 80px;
 }
 
-.features-container > div {
+.features-container>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,16 +160,16 @@
   gap: 24px;
 }
 
-.features-list > div > h5 {
+.features-list>div>h5 {
   padding-bottom: 16px;
 }
 
-.features-list > div > p {
+.features-list>div>p {
   padding-bottom: 24px;
 }
 
 @media (max-width: 1080px) {
-  .features-container > img {
+  .features-container>img {
     width: 480px;
   }
 }
@@ -178,16 +182,16 @@
   gap: 80px;
 }
 
-.costumer-stories-left > :nth-child(1) {
+.costumer-stories-left> :nth-child(1) {
   font-weight: 600;
   padding-bottom: 16px;
 }
 
-.costumer-stories-left > :nth-child(2) {
+.costumer-stories-left> :nth-child(2) {
   padding-bottom: 24px;
 }
 
-.costumer-stories-left > :nth-child(3) {
+.costumer-stories-left> :nth-child(3) {
   padding-bottom: 32px;
 }
 
@@ -197,12 +201,12 @@
   gap: 32px;
 }
 
-.costumer-stories-grid > div {
+.costumer-stories-grid>div {
   display: flex;
   gap: 24px;
 }
 
-.costumer-stories-grid > div > div {
+.costumer-stories-grid>div>div {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -211,7 +215,31 @@
 }
 
 @media (max-width: 1080px) {
-  .costumer-stories-container > img {
+  .costumer-stories-container>img {
     width: 480px;
   }
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 64px;
+  gap: 32px;
+}
+
+.testimonial-section h5 {
+  max-width: 768px;
+  text-align: center;
+}
+
+.testimonial-section>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-section>div> :nth-child(2) {
+  margin-top: 16px;
+  font-weight: 600;
 }
